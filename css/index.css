@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    -border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -126,6 +127,34 @@ p {
     padding-right: 0;
 }
 
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0%;
+    color: black;
+}
+header a{
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+header a:hover{
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+}
+header img{
+    width:25%;
+    height: 25%;
+}
+header nav{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0%;
+    font-size: 14px;
+}
 footer {
     width: 100%;
     background: black;
@@ -143,4 +172,71 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.jumbo1{
+    display: flex;
+    margin:4% 0%;
+}
+.box:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+/* Box Colors */
+#b1{
+    background-color: teal;
+}
+#b2{
+    background-color: gold;
+}
+#b3{
+    background-color: cadetblue;
+}
+#b4{
+    background-color: coral;
+}
+#b5{
+    background-color: crimson;
+}
+#b6{
+    background-color: forestgreen;
+}
+#b7{
+    background-color: darkorchid;
+}
+#b8{
+    background-color: hotpink;
+}
+#b9{
+    background-color: indigo;
+}
+#b10{
+    background-color: dodgerblue;
+}
+
+.row{
+    display: flex;
+}
+.topic{
+    margin:2%;
+    border-bottom: 2px dotted black;
+}
+.topic button{
+    margin:5%;
+    width:200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.topic button:hover{
+    box-shadow: 0px 0px 5px black;
+    background-color: lightgray;
+}
+.topper{
+    margin:2.5%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 2%;
+}
+.botter{
+    margin:2.5%;
 }
